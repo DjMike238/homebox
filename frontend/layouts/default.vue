@@ -105,7 +105,7 @@
           <footer v-if="status" class="bottom-0 w-full bg-base-300 pb-4 text-center text-secondary-content">
             <p class="text-center text-sm">
               <a
-                href="https://github.com/sysadminsmedia/homebox/releases/tag/{{ status.build.version }}"
+                v-bind:href="'https://github.com/sysadminsmedia/homebox/releases/tag/' + status.build.version"
                 target="_blank"
               >
                 {{ $t("global.version", { version: status.build.version }) }} ~
