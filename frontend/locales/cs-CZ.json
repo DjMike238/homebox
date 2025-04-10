@@ -262,6 +262,7 @@
     "languages.da-DK": "Dánština",
     "languages.ro-RO": "Rumunština",
     "languages.sk-SK": "Slovenština",
+    "languages.sq-AL": "Albánština",
     "locations": {
         "child_locations": "Podřazené Lokace",
         "collapse_tree": "Zabalit Strom",
@@ -349,7 +350,7 @@
         "invalid_url": "Neplatná adresa URL čárového kódu",
         "no_sources": "Nejsou k dispozici žádné zdroje videa",
         "select_video_source": "Vybrat zdroj videa",
-        "unsupported": "Rozhraní API Media Stream není podporováno"
+        "unsupported": "Rozhraní Media Stream API není podporováno bez protokolu HTTPS"
     },
     "tools": {
         "actions": "Inventurní akce",
